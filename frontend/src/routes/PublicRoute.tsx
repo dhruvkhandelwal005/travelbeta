@@ -1,6 +1,6 @@
 import { Navigate } from "react-router-dom"
 import type { ReactNode } from "react"
-import { isAuthenticated } from "../components/auth"
+import { isAuthenticated } from "../components/api"
 
 const PublicRoute = ({ children }: { children: ReactNode }) => {
   if (isAuthenticated()) {

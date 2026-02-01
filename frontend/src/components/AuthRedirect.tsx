@@ -1,5 +1,5 @@
 import { Navigate } from "react-router-dom"
-import { isAuthenticated } from "./auth"
+import { isAuthenticated } from "./api"
 
 const AuthRedirect = () => {
   return isAuthenticated()
